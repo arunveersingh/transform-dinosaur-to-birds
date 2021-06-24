@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T17:47:21.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 OPR/77.0.4054.90" etag="bLKioNcLhmkatCOGSaQl" version="14.8.0" type="github" pages="2">
-  <diagram id="hybF_AHONoGxi9Xy7w8x" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-06-24T20:13:41.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 OPR/77.0.4054.90" etag="jmmyHUFTsJgwXEw1b2-B" version="14.8.0" type="github" pages="3">
+  <diagram id="hybF_AHONoGxi9Xy7w8x" name="HighAvailabilityIAMDesignPattern">
     <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -61,13 +61,126 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="2nK-FZSalngX3GA0l22q" name="Page-2">
+  <diagram id="2nK-FZSalngX3GA0l22q" name="Distribute AWS Credentials to EC2">
     <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZoCaTa6T1BRPGj300-j--0" />
         <mxCell id="ZoCaTa6T1BRPGj300-j--1" parent="ZoCaTa6T1BRPGj300-j--0" />
         <mxCell id="ZoCaTa6T1BRPGj300-j--2" value="&lt;h1 class=&quot;lb-h2 blog-post-title&quot; style=&quot;box-sizing: border-box ; margin: 0px ; color: rgb(35 , 47 , 62) ; font-weight: 500 ; font-family: &amp;#34;amazonemberbold&amp;#34; , &amp;#34;helvetica neue bold&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 2.4rem ; line-height: 1.3&quot;&gt;Distribute AWS Credentials to EC2&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZoCaTa6T1BRPGj300-j--1">
           <mxGeometry x="40" y="40" width="770" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="27o8By8hVNY2e-l8S0OD-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/IAM/latest/UserGuide/images/roles-usingrole-ec2roleinstance.png;" vertex="1" parent="ZoCaTa6T1BRPGj300-j--1">
+          <mxGeometry x="50" y="141.5" width="750" height="356.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rhjH9vImBg1a3-dmJu2O" name="UseCases">
+    <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NohFFQpjYH7S3I6kau8--0" />
+        <mxCell id="NohFFQpjYH7S3I6kau8--1" parent="NohFFQpjYH7S3I6kau8--0" />
+        <mxCell id="NohFFQpjYH7S3I6kau8--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NohFFQpjYH7S3I6kau8--1" source="NohFFQpjYH7S3I6kau8--24" target="NohFFQpjYH7S3I6kau8--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="141" />
+              <mxPoint x="220" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--6" value="App Running in EC2 instance need to access RDS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="40" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="400" y="100" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--11" value="App Running in EC2 instance need to access OnPremise Datasource" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="235" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--13" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="414" y="283" width="90.2" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NohFFQpjYH7S3I6kau8--1" source="NohFFQpjYH7S3I6kau8--26" target="NohFFQpjYH7S3I6kau8--20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="525.5" as="targetPoint" />
+            <mxPoint x="160" y="525" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--16" value="App Running in EC2 instance need to access Datasource on EC2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="425" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--19" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="400" y="480" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--20" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="435" y="525" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--21" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="30" y="76" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--22" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="30" y="265" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--23" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="30" y="480" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--24" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="60" y="112.5" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NohFFQpjYH7S3I6kau8--1" source="NohFFQpjYH7S3I6kau8--25" target="NohFFQpjYH7S3I6kau8--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--25" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="70.5" y="310" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--26" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="70.5" y="527" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NohFFQpjYH7S3I6kau8--1" source="NohFFQpjYH7S3I6kau8--33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="780" as="targetPoint" />
+            <mxPoint x="160" y="750" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--29" value="App Running in EC2 instance need to access App on EC2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="650" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--30" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="400" y="705" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--32" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="30" y="705" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--33" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="70.5" y="752" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--34" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="434.6" y="752" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NohFFQpjYH7S3I6kau8--1" source="NohFFQpjYH7S3I6kau8--39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="970" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="971" />
+              <mxPoint x="220" y="971" />
+            </Array>
+            <mxPoint x="400" y="970.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--36" value="App Running in EC2 instance need to access DynamoDb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="870" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--38" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="30" y="906" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--39" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_side_code;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="60" y="942.5" width="49" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NohFFQpjYH7S3I6kau8--41" value="Amazon DynamoDB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="404" y="916" width="80" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
