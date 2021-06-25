@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T20:13:41.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 OPR/77.0.4054.90" etag="jmmyHUFTsJgwXEw1b2-B" version="14.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-25T16:56:09.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 OPR/77.0.4054.90" etag="dbkNLa96pVFWTmPW8g7W" version="14.8.0" type="github" pages="6">
   <diagram id="hybF_AHONoGxi9Xy7w8x" name="HighAvailabilityIAMDesignPattern">
     <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="191" y="630" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="SZYIprdb0noJJP8OvCxE-19" value="App1" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="630" width="48" height="48" as="geometry" />
+          <mxGeometry x="390" y="630" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="SZYIprdb0noJJP8OvCxE-22" value="TRUST policy" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.policy_2;" vertex="1" parent="1">
           <mxGeometry x="280" y="510" width="50" height="45" as="geometry" />
@@ -70,7 +70,7 @@
           <mxGeometry x="40" y="40" width="770" height="20" as="geometry" />
         </mxCell>
         <mxCell id="27o8By8hVNY2e-l8S0OD-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/IAM/latest/UserGuide/images/roles-usingrole-ec2roleinstance.png;" vertex="1" parent="ZoCaTa6T1BRPGj300-j--1">
-          <mxGeometry x="50" y="141.5" width="750" height="356.25" as="geometry" />
+          <mxGeometry x="40" y="120" width="757.89" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -182,6 +182,57 @@
         <mxCell id="NohFFQpjYH7S3I6kau8--41" value="Amazon DynamoDB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
           <mxGeometry x="404" y="916" width="80" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="i1F6xCjo4NIYE3MPSxTi-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/IAM/latest/UserGuide/images/roles-instance-profile-cross-account.png;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+          <mxGeometry x="40" y="1120" width="458" height="323" as="geometry" />
+        </mxCell>
+        <UserObject label="https://aws.amazon.com/premiumsupport/knowledge-center/users-connect-rds-iam/" link="https://aws.amazon.com/premiumsupport/knowledge-center/users-connect-rds-iam/" id="i1F6xCjo4NIYE3MPSxTi-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="NohFFQpjYH7S3I6kau8--1">
+            <mxGeometry x="520" y="126" width="470" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-TouCNWqxJQOEcBZHPFR" name="ArchitectureDiagrams">
+    <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-TxU8lw2uANwHTsADHV5-0" />
+        <mxCell id="-TxU8lw2uANwHTsADHV5-1" parent="-TxU8lw2uANwHTsADHV5-0" />
+        <mxCell id="-TxU8lw2uANwHTsADHV5-2" value="&lt;ul class=&quot;&quot; style=&quot;box-sizing: inherit; margin: 0px; padding: 0px; list-style: none none; color: rgba(0, 0, 0, 0.8); font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li id=&quot;a185&quot; class=&quot;ie if ds ig b eq ih ii ij et ik il im in io ip iq ir is it iu iv iw ix iy iz jj jb jc cg&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; line-height: 32px ; letter-spacing: -0.003em ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; margin-bottom: -0.46em ; margin-left: 30px ; padding-left: 0px ; list-style-type: disc ; font-size: 21px ; margin-top: 2em&quot;&gt;&lt;strong class=&quot;ig jd&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-weight: 700&quot;&gt;Application Architecture Diagram&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;6455&quot; class=&quot;ie if ds ig b eq je ii ij et jf il im in jg ip iq ir jh it iu iv ji ix iy iz jj jb jc cg&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; line-height: 32px ; letter-spacing: -0.003em ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; margin-bottom: -0.46em ; margin-left: 30px ; padding-left: 0px ; list-style-type: disc ; font-size: 21px ; margin-top: 1.05em&quot;&gt;&lt;strong class=&quot;ig jd&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-weight: 700&quot;&gt;Integration Architecture Diagram&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;efd7&quot; class=&quot;ie if ds ig b eq je ii ij et jf il im in jg ip iq ir jh it iu iv ji ix iy iz jj jb jc cg&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; line-height: 32px ; letter-spacing: -0.003em ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; margin-bottom: -0.46em ; margin-left: 30px ; padding-left: 0px ; list-style-type: disc ; font-size: 21px ; margin-top: 1.05em&quot;&gt;&lt;strong class=&quot;ig jd&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-weight: 700&quot;&gt;Deployment Architecture Diagram&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;7dfb&quot; class=&quot;ie if ds ig b eq je ii ij et jf il im in jg ip iq ir jh it iu iv ji ix iy iz jj jb jc cg&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; line-height: 32px ; letter-spacing: -0.003em ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; margin-bottom: -0.46em ; margin-left: 30px ; padding-left: 0px ; list-style-type: disc ; font-size: 21px ; margin-top: 1.05em&quot;&gt;&lt;strong class=&quot;ig jd&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-weight: 700&quot;&gt;DevOps Architecture Diagram&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;287e&quot; class=&quot;ie if ds ig b eq je ii ij et jf il im in jg ip iq ir jh it iu iv ji ix iy iz jj jb jc cg&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; line-height: 32px ; letter-spacing: -0.003em ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; margin-bottom: -0.46em ; margin-left: 30px ; padding-left: 0px ; list-style-type: disc ; font-size: 21px ; margin-top: 1.05em&quot;&gt;&lt;strong class=&quot;ig jd&quot; style=&quot;box-sizing: inherit ; font-family: &amp;quot;charter&amp;quot; , &amp;quot;georgia&amp;quot; , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; font-weight: 700&quot;&gt;Data Architecture Diagram&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="-TxU8lw2uANwHTsADHV5-1">
+          <mxGeometry x="60" y="50" width="430" height="260" as="geometry" />
+        </mxCell>
+        <UserObject label="https://medium.com/the-internal-startup/how-to-draw-useful-technical-architecture-diagrams-2d20c9fda90d" link="https://medium.com/the-internal-startup/how-to-draw-useful-technical-architecture-diagrams-2d20c9fda90d" id="-TxU8lw2uANwHTsADHV5-3">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="-TxU8lw2uANwHTsADHV5-1">
+            <mxGeometry x="40" y="40" width="590" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IpwyttC38P4O72803I_h-0" value="There are three common patterns that we observe when our customers build&lt;br/&gt;microservices: API driven, event driven, and data streaming." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="-TxU8lw2uANwHTsADHV5-1">
+          <mxGeometry x="40" y="400" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IpwyttC38P4O72803I_h-2" value="Serverless is defined as an operational model by the following tenets:&#xa;• No infrastructure to provision or manage&#xa;• Automatically scaling by unit of consumption&#xa;• “Pay for value” billing model&#xa;• Built-in availability and fault tolerance" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="-TxU8lw2uANwHTsADHV5-1">
+          <mxGeometry x="50" y="460" width="390" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CtvAnEcikaLKlM-po1jI" name="CI/CD">
+    <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="n11_B9VXkyJouuxj5YQA-0" />
+        <mxCell id="n11_B9VXkyJouuxj5YQA-1" parent="n11_B9VXkyJouuxj5YQA-0" />
+        <UserObject label="https://docs.aws.amazon.com/codepipeline/latest/userguide/codepipeline-user.pdf#concepts-continuous-delivery-integration" link="https://docs.aws.amazon.com/codepipeline/latest/userguide/codepipeline-user.pdf#concepts-continuous-delivery-integration" id="n11_B9VXkyJouuxj5YQA-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="n11_B9VXkyJouuxj5YQA-1">
+            <mxGeometry x="60" y="50" width="730" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SnAQLvZmyDOyuaUXpVl6" name="Page-6">
+    <mxGraphModel dx="1382" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Gay3dvUYhFVjylemArmb-0" />
+        <mxCell id="Gay3dvUYhFVjylemArmb-1" parent="Gay3dvUYhFVjylemArmb-0" />
       </root>
     </mxGraphModel>
   </diagram>
